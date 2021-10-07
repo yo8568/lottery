@@ -31,7 +31,7 @@ function App() {
 
   const handleSetMs = (v) => {
     dispatch(setMs(v));
-    removeCountDown();
+    removeCountDown(); 
     if (v === 0) {
       const winnerIdx = getWinnerIdx();
       const winner = participants[winnerIdx];
@@ -51,6 +51,7 @@ function App() {
       const winner = participants[winnerIdx];
       setWinner(winner);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ms]);
 
   const min = (() => {
