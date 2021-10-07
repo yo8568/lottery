@@ -13,11 +13,11 @@ Lottery Demo
 ```
 .
 ├── src/                   # source code
-     ├── layout/           # project layout
-     ├── pages/            # page components that are corresponding to routes
-     ├── components/       # common components
-     ├── store/            # redux store via redux-toolkit
-     └── index.js          # entry point
+│    ├── layout/           # project layout
+│    ├── pages/            # page components that are corresponding to routes
+│    ├── components/       # common components
+│    ├── store/            # redux store via redux-toolkit
+│    └── index.js          # entry point
 ├── public                 # static resource files
 └── package.json           # project description package
 ```
