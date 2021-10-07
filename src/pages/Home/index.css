@@ -1,0 +1,11 @@
+.min-word {
+  padding: 10px;
+}
+
+.time {
+  padding: 50px 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}

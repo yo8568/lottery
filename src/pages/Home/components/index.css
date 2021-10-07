@@ -1,0 +1,23 @@
+.min-word {
+  padding: 10px;
+}
+
+.right-participants {
+  height: calc(100vh - 200px);
+  overflow: auto;
+}
+
+@media (max-width: 640px) {
+  .right-participants {
+    height: calc(100vh - 400px);
+    overflow: auto;
+  }
+}
+
+.time {
+  padding: 50px 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
