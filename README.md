@@ -33,7 +33,7 @@ Lottery Demo
 ***Run Project***
 
 ```bash
-  $ yarn install
+  $ yarn start
 ```
 
 Please see `http://localhost:3000/`
